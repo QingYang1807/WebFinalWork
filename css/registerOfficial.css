@@ -1,0 +1,641 @@
+/*设置body全体背景*/
+body{
+	/*在一个声明中设置所有的背景属性。*/
+	background:url(../img/reg_repeat_bg.png);
+	/*设置元素的背景图像。*/
+	background-image: url(../img/reg_repeat_bg.png);
+	/*background-position:设置背景图像的开始位置。
+	 需要把 background-attachment 属性设置为 "fixed"，
+	 才能保证该属性在 Firefox 和 Opera 中正常工作。*/
+	background-position-x: initial;/*initial 关键字用于设置 CSS 属性为它的默认值。*/
+	background-position-y: initial;
+	/*background-size 规定背景图片的尺寸。*/
+	background-size:initial;
+	/*background-repeat	设置是否及如何重复背景图像。*/
+	background-repeat: repeat;/*上下左右方向都重复*/
+	/*background-attachment	设置背景图像是否固定或者随着页面的其余部分滚动。*/
+	background-attachment: fixed;
+	/*background-color: rgb(190, 225, 245);*/
+	/*margin: 1cm 1cm 1cm 1cm;外边距：上 右 下 左 */	
+}
+
+/*所有元素内外边距为0*/
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td,
+ p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+body{/*字体抗锯齿渲染*/
+   -webkit-font-smoothing: antialiased;
+   /*
+	-webkit-font-smoothing它有三个属性值：
+	none：对低像素的文本比较好
+	subpixel-antialiased：默认值
+	antialiased：抗锯齿很好  */
+}
+
+body, button, input, select, textarea {
+    font: 12px/1.125 Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+    /**/
+    font-style: normal;/*normal	默认值。浏览器显示一个标准的字体样式。
+    					italic【斜体字】	浏览器会显示一个斜体的字体样式。（只有字体含有italic属性的时候才能用）
+						oblique	【倾斜的】浏览器会显示一个倾斜的字体样式。*/
+    font-variant-ligatures: normal;/*font-variant 属性设置小型大写字母的字体显示文本*/
+    /*不一致的; 多样的  */
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: normal;/*font-weight	规定字体的粗细。*/
+    font-stretch: normal;/*font-size	规定文本的字体尺寸。*/
+    font-size: 12px;/*font-size	规定文本的字体尺寸。*/
+    line-height: 1.125;
+    font-family: Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    /*font-size	规定文本的字体尺寸。*/
+}
+
+body{
+	display:block;/*display设置元素显示方式,block是以块状元素的方式显示*/
+}
+
+.W_header_line {/*顶部红色线*/
+    height: 3px;
+    border-bottom: 1px solid #e6f1f9;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(230, 241, 249);
+    background: url(../img/top_line_bg.png) repeat-x center 0;
+    background-image: url(../img/top_line_bg.png));
+    background-position-x: center;
+    background-position-y: 0px;
+    background-size: initial;
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.W_logo_wave, .W_logo_wave2 {/*波浪小云朵*/
+    height: 164px;
+    background: url(../img/bg_reg_wave.png) no-repeat center bottom;
+    background-image: url(../img/bg_reg_wave.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+.W_reg_header {/*波浪小云朵属性设置*/
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding: 10px 0;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+
+.W_nologin_logo_big {/*波浪上的大LOGO*/
+    width: 200px;
+    height: 72px;
+    margin: 0 auto;
+    margin-top: 26px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-top: 26px;
+    background: url(../img/logo_big.png) no-repeat;
+    background-image: url(../img/logo_big.png);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+.W_nologin .main_e_radius_bg {/*内容主窗体*/
+    background: #fff;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    box-shadow: none;
+}
+
+.W_nologin_main {/*内容主窗体*/
+    width: 900px;
+    margin: 0 auto 35px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 35px;
+    margin-left: auto;
+    border-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    /*下面好像没啥用*/
+    border-bottom-left-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0px 2px 3px #98b4c4;
+    -moz-box-shadow: 0px 2px 3px #98b4c4;
+    -webkit-box-shadow: 0px 2px 3px #98b4c4;
+}
+
+.W_nologin_main .main_tab_line {/*个人注册  | 官方注册导航栏  边界大小*/
+    padding: 24px 0 22px 40px;
+    padding-top: 24px;
+    padding-right: 0px;
+    padding-bottom: 22px;
+    padding-left: 40px;
+}
+
+.W_nologin_main .main_tab_line a {/*个人注册  | 官方注册   字体大小*/
+    display: inline-block;
+    font-size: 22px;
+    color: #333;
+    line-height: 33px;
+}
+.W_f22 {/*个人注册  | 官方注册   字体大小*/
+    font-size: 22px;
+}
+.W_Yahei {/*个人注册  | 官方注册   字体类型：微软雅黑*/
+    font-family: "Microsoft Yahei";
+}
+
+.W_nologin_main .main_tab_line .vline {/*vline   个人注册 | 官方注册  中间竖线的属性*/
+    margin: 0 19px;
+    margin-top: 0px;
+    margin-right: 19px;/*右边闪开19px像素*/
+    margin-bottom: 0px;
+    margin-left: 19px;/*左边闪开19px像素*/
+    color: #999;
+}
+
+.W_nologin_main .main_tab_line .cur {/*官方注册的  cur属性，添加橙色的下划线*/
+    border-bottom: 3px solid #ffa00a;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(255, 160, 10);
+}
+
+.W_nologin_main .main_tab_line a {/*官方注册的  a属性*/
+    display: inline-block;
+    font-size: 22px;
+    color: #333;
+    line-height: 33px;
+}
+
+a {/* 全局a属性，不知道有啥用*/
+    color: #0a8cd2;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+a:-webkit-any-link {/*匹配*/
+    color: -webkit-link;
+    cursor: auto;
+    /*
+     -moz：匹配Firefox浏览器
+     -webkit：匹配Webkit枘核浏览器，如chrome and safari
+     -webkit：匹配Webkit枘核浏览器，如chrome and safari
+    */
+}
+
+element.style {/*主体框引用php样式*/
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 900px;
+    height: 561px;
+}
+iframe[Attributes Style] {
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+
+iframe {
+    border-width: 2px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-style: inset;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-color: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+/*--------- 主体部分 ----------------*/
+.B_reg_tel .W_nologin .W_reg_info, .B_reg_email .W_nologin .W_reg_info {
+    background-position: 630px -45px;
+    background-position-x: 630px;
+    background-position-y: -45px;
+}
+/*--------- W_reg_form -----------*/
+.B_register .main_radius_bg .W_reg_form {
+    margin: 29px 0 0 20px;
+    margin-top: 29px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    padding-bottom: 78px;
+}
+
+.B_register .W_nologin_main .W_reg_form {
+    float: left;
+    width: 600px;
+    margin: 30px 0 0 30px;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    _display: inline;
+}
+
+/*--------- info_list clearfix -----------*/
+.W_reg_form .info_list {
+    margin: 0 0 15px;
+    position: relative;
+}
+
+.clearfix {
+    display: block;
+}
+.clearfix {
+    display: inline-block;
+}
+
+/*--------- <div class="tit"> -----------*/
+.B_register .W_nologin_main .W_reg_form .tit {
+    width: 160px;
+}
+.W_nologin_main .W_reg_form .tit, .W_nologin_main .W_reg_form .inp .W_input {
+    font-size: 14px;
+}
+.W_reg_form .tit {
+    float: left;
+    line-height: 30px;
+    text-align: right;
+}
+
+/*--------- <span class="mobile_ico"></span> -----------*/
+.mobile_ico {
+    background-position: 0 -24px;
+    background-position-x: 0px;
+    background-position-y: -24px;
+}
+
+.mail_ico, .mobile_ico {
+    display: inline-block;
+    width: 20px;
+    height: 23px;
+    background: url(../img/reg_method_s.png) no-repeat 0 0;
+    background-image: url(../img/reg_method_s.png);
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    vertical-align: middle;
+    margin-right: 9px;
+}
+
+/*--------- <i>*</i> -----------*/
+.W_reg_form .tit i {
+    color: #F00;
+    font-family: "SimSun";
+    padding-right: 4px;
+}
+
+address, caption, cite, code, dfn, em, i, th, var, b {
+    font-style: normal;
+    font-weight: normal;
+}
+i, cite, em, var, address, dfn {
+    font-style: italic;
+}
+
+/*--------- <div class="inp">…</div> -----------*/
+.B_register .W_nologin_main .W_reg_form .inp {
+    margin-left: 160px;
+}
+
+/*--------- <div class="flag_tel clearfix">…</div> -----------*/
+.clearfix {
+    display: block;
+}
+.clearfix {
+    display: inline-block;
+}
+
+div {
+    display: block;
+}
+
+/*--------- ddddddddd -----------*/
+.W_reg_form .flag_tel .foreign_tel .tel_num {
+    width: 112px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.W_reg_form .foreign_tel .tel_num {
+    width: 147px;
+    height: 28px;
+    height: 20px\9;
+    padding-top: 4px\9;
+    line-height: 19px\9;
+    *line-height: 18px;
+    font-size: 14px;
+    border: 0;
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    background: none;
+    background-image: none;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    color: #808080;
+}
+input[type="text"], input[type="password"], textarea {
+    outline-style: none;
+    -webkit-appearance: none;
+}
+a:focus, input, textarea {
+    outline-style: none;
+}
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+body, button, input, select, textarea {
+    font: 12px/1.125 Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 12px;
+    line-height: 1.125;
+    font-family: Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+input:not([type]), input[type="email" i], input[type="number" i], input[type="password" i], input[type="tel" i], input[type="url" i], input[type="text" i] {
+    padding: 1px 0px;
+    padding-top: 1px;
+    padding-right: 0px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+}
+
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    border-width: 2px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-style: inset;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-color: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+    font: 400 13.3333px Arial;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 13.3333px;
+    line-height: normal;
+    font-family: Arial;
+}
+
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+
+/*--------- 或使用手机号注册 -----------*/
+
+/*--------- 34行<div id="pl_account_regmobile"> -----------*/
+.B_reg_tel .W_nologin .W_reg_info, .B_reg_email .W_nologin .W_reg_info {
+    background-position: 630px -45px;
+    background-position-x: 630px;
+    background-position-y: -45px;
+}
+.B_user .W_reg_info, .B_register .W_nologin .W_reg_info {
+    background: url(../../../images/register/reg_vline.png?id=1370232467958) no-repeat scroll 630px 0;
+    background-image: url(../../../images/register/reg_vline.png?id=1370232467958);
+    background-position-x: 630px;
+    background-position-y: 0px;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: scroll;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+.clearfix {
+    display: block;
+}
+.clearfix {
+    display: inline-block;
+}
+div {
+    display: block;
+}
+/*--------- <div class="W_reg_form"> -----------*/
+.B_register .main_radius_bg .W_reg_form {
+    margin: 29px 0 0 20px;
+    margin-top: 29px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    padding-bottom: 78px;
+}
+
+.B_register .W_nologin_main .W_reg_form {
+    float: left;
+    width: 600px;
+    margin: 30px 0 0 30px;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    _display: inline;
+}
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
+/*--------- ddddddddd -----------*/
+
