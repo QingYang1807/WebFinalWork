@@ -1,0 +1,2006 @@
+body {
+    background: url(../img/reg_repeat_bg.png) repeat-x #bee1f5;
+    background-image: url(../img/reg_repeat_bg.png);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(190, 225, 245);
+}
+div {
+    display: block;/*display 属性规定元素应该生成的框的类型。*/
+   /*block	此元素将显示为块级元素，此元素前后会带有换行符。
+	inline	默认。此元素会被显示为内联元素，元素前后没有换行符。*/
+}
+.W_header_line {/*顶部红线*/
+    height: 3px;
+    border-bottom: 1px solid #e6f1f9;
+    background: url(../img/top_line_bg.png) repeat-x center 0;
+    overflow: hidden;
+}
+.W_logo_wave, .W_logo_wave2 {/*上方波浪*/
+    height: 185px;
+    background: url(../img/bg_reg_wave.png) no-repeat center bottom;
+    margin-top: 0px;
+}
+.W_reg_header {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding: 10px 0;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+.W_nologin_logo_big {/*波浪上方覆盖logo*/
+    width: 200px;
+    height: 72px;
+    margin: 0 auto;
+    margin-top: 27px;
+    background: url(../img/logo_big.png) no-repeat;
+}
+.W_nologin .main_radius_bg {/*注册内容块*/
+    width: 900px;
+    margin: 0 auto 15px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 2px 3px #98b4c4;
+    -moz-box-shadow: 0px 2px 3px #98b4c4;
+    -webkit-box-shadow: 0px 2px 3px #98b4c4;
+}
+.W_nologin_main {
+    width: 900px;
+    margin: 0 auto 35px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0px 2px 3px #98b4c4;
+    -moz-box-shadow: 0px 2px 3px #98b4c4;
+    -webkit-box-shadow: 0px 2px 3px #98b4c4;
+}
+.W_nologin_main .main_tab_line {/*个人注册+官方注册按钮 容器*/
+    padding: 24px 0 22px 40px;
+}
+
+.W_nologin_main .main_tab_line .cur {/*个人注册*/
+    border-bottom: 3px solid #ffa00a;
+}
+.W_nologin_main .main_tab_line a {/*个人注册*/
+    display: inline-block;
+    font-size: 22px;
+    color: #333;
+    line-height: 33px;
+}
+.W_f22 {/*个人注册*/
+    font-size: 22px;
+}
+.W_Yahei {/*个人注册*/
+    font-family: "Microsoft Yahei";
+}
+a {/*个人注册*/
+    color: #0a8cd2;
+    text-decoration: none;
+}
+a {/*个人注册*/
+    text-decoration: none;
+}
+a:-webkit-any-link {/*个人注册*/
+    color: -webkit-link;
+    cursor: pointer;
+    /*text-decoration: underline;对文本设置某种效果，如加下划线*/
+   /*none	默认。定义标准的文本。
+	underline	定义文本下的一条线。
+	overline	定义文本上的一条线。
+	line-through	定义穿过文本下的一条线。
+	blink	定义闪烁的文本。
+	inherit	规定应该从父元素继承 text-decoration 属性的值。*/
+}
+.W_nologin_main .main_tab_line .vline {/*个人注册和官方注册之间的  竖线| */
+    margin: 0 19px;
+    color: #999;
+}
+/*以下是注册输入窗口*/
+
+/**************************//*<!--注册主体框--><div class="W_reg_info clearfix" id="pl_account_regmobile">…</div>*/
+.B_reg_tel .W_nologin .W_reg_info, .B_reg_email .W_nologin .W_reg_info {
+    background-position: 630px -45px;
+    background-position-x: 630px;
+    background-position-y: -45px;
+}
+.B_user .W_reg_info, .B_register .W_nologin .W_reg_info {
+    background: url(../../../images/register/reg_vline.png?id=1370232467958) no-repeat scroll 630px 0;
+    background-image: url(../../../images/register/reg_vline.png?id=1370232467958);
+    background-position-x: 630px;
+    background-position-y: 0px;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: scroll;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+.clearfix {
+    display: block;
+}
+.clearfix {
+    display: inline-block;
+}
+div {
+    display: block;
+}
+/**************************//*<div class="W_reg_form">…</div>*/
+.B_register .main_radius_bg .W_reg_form {
+    margin: 29px 0 0 20px;
+    margin-top: 29px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    padding-bottom: 78px;
+}
+
+.B_register .W_nologin_main .W_reg_form {
+    float: left;
+    width: 600px;
+    margin: 30px 0 0 30px;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    _display: inline;
+}
+/**************************//*<div class="W_reg_sidebar">…</div>*/
+.W_reg_sidebar {
+    float: right;
+    width: 210px;
+    margin: 30px 30px 0 0;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size: 14px;
+    line-height: 22px;
+    _display: inline;
+}
+/**************************//*::after*/
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/**************************//*<div class="info_list clearfix" node-type="mobilesea_wrapper">…</div>*/
+.W_reg_form .info_list {
+    margin: 0 0 15px;
+    position: relative;
+}
+
+.clearfix {
+    display: block;
+}
+.clearfix {
+    display: inline-block;
+}
+/**************************//*<div class="tit">…</div>*/
+.B_register .W_nologin_main .W_reg_form .tit {
+    width: 160px;
+}
+.W_nologin_main .W_reg_form .tit, .W_nologin_main .W_reg_form .inp .W_input {
+    font-size: 14px;
+}
+.W_reg_form .tit {
+    float: left;
+    line-height: 30px;
+    text-align: right;
+}
+/**************************//*<div class="inp">…</div>*/
+.B_register .W_nologin_main .W_reg_form .inp {
+    margin-left: 160px;
+}
+/**************************//*<div class="tips" node-type="mobilesea_tip"></div>*/
+.B_register .W_nologin_main .W_reg_form .tips {
+    *width: 215px;
+}
+.W_reg_form .tips {
+    position: absolute;
+    left: 375px;
+    top: 6px;
+}
+/**************************//*.clearfix:after {*/
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/**************************//*<span class="mobile_ico"></span>*/
+.mobile_ico {
+    background-position: 0 -24px;
+    background-position-x: 0px;
+    background-position-y: -24px;
+}
+
+.mail_ico, .mobile_ico {
+    display: inline-block;
+    width: 20px;
+    height: 23px;
+    background: url(../img/reg_method_s.png) no-repeat 0 0;
+    background-image: url(../img/reg_method_s.png);
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    vertical-align: middle;
+    margin-right: 9px;
+}
+
+/**************************//*<i>*</i>*/
+.W_reg_form .tit i {
+    color: #F00;
+    font-family: "SimSun";
+    padding-right: 4px;
+}
+
+address, caption, cite, code, dfn, em, i, th, var, b {
+    font-style: normal;
+    font-weight: normal;
+}
+i, cite, em, var, address, dfn {
+    font-style: italic;
+}
+/**************************//*<div class="flag_tel clearfix">…</div>*/
+.clearfix {
+    display: block;
+}
+.clearfix {
+    display: inline-block;
+}
+
+div {
+    display: block;
+}
+/**************************/
+.W_reg_form .attachment {/*<div class="attachment">…</div>*/
+    padding-top: 10px;
+}
+div {
+    display: block;
+}
+/**************************//*<a href="javascript:void(0);" class="tel_country CH" node-type="mobilesea_select"></a>*/
+.W_reg_form .flag_tel .CH {
+    background-position: 4px 8px;
+    background-position-x: 4px;
+    background-position-y: 8px;
+}
+
+.W_reg_form .flag_tel .tel_country {
+    float: left;
+    padding: 8px 4px;
+    padding-top: 8px;
+    padding-right: 4px;
+    padding-bottom: 8px;
+    padding-left: 4px;
+    width: 27px;
+    height: 12px;
+    border: 1px solid #ccc;
+    border-top-color: rgb(204, 204, 204);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(204, 204, 204);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(204, 204, 204);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(204, 204, 204);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    background: url(../img/reg_flag.png)) no-repeat;
+    background-image: url(../img/reg_flag.png);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+.CH {
+    font-family: "SimSun";
+}
+a {
+    color: #0a8cd2;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+/**************************//*<input type="hidden" name="zone" value="0086" node-type="mobilesea_selectvalue">*/
+a:focus, input, textarea {
+    outline-style: none;
+}
+
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+body, button, input, select, textarea {
+    font: 12px/1.125 Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 12px;
+    line-height: 1.125;
+    font-family: Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+input[type="hidden" i], input[type="image" i], input[type="file" i] {
+    -webkit-appearance: initial;
+    background-color: initial;
+    cursor: default;
+    padding: initial;
+    padding-top: initial;
+    padding-right: initial;
+    padding-bottom: initial;
+    padding-left: initial;
+    border: initial;
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: initial;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: initial;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: initial;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+input[type="hidden" i] {
+    display: none;
+}
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    border-width: 2px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-style: inset;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-color: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+    font: 400 13.3333px Arial;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 13.3333px;
+    line-height: normal;
+    font-family: Arial;
+}
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+/**************************//*<div class="W_input foreign_tel">…</div>*/
+.W_nologin_main .W_reg_form .tit, .W_nologin_main .W_reg_form .inp .W_input {
+    font-size: 14px;
+}
+.W_reg_form .flag_tel .foreign_tel {
+    float: left;
+    width: 157px;
+    padding-left: 5px;
+    position: relative;
+    left: -1px;
+    *left: -3px;
+}
+
+.W_reg_form .inp .W_input {
+    width: 196px;
+}
+.W_reg_form .foreign_tel {
+    width: 190px;
+    height: 28px;
+    padding: 0 0 0 2px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    background: #fff;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+    _margin-left: 2px;
+}
+:root .W_input, :root .W_inputStp {
+    height: 26px\0;
+    padding: 2px 0 0 2px\0;
+}
+.W_input, .W_inputStp {
+    border: 1px solid #ccc;
+    border-top-color: rgb(204, 204, 204);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(204, 204, 204);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(204, 204, 204);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(204, 204, 204);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    height: 28px;
+    padding: 0 0 0 2px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    vertical-align: middle;
+    color: #808080;
+    -webkit-box-shadow: 0px 1px 1px 0px #eaeaea inset;
+    -moz-box-shadow: 0px 1px 1px 0px #eaeaea inset;
+    box-shadow: 0px 1px 1px 0px #eaeaea inset;
+    height: 20px\9;
+    padding: 8px 0 0 2px\9;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+}
+/**************************//*<span class="tel_forenum" node-type="mobilesea_txt">0086</span>*/
+.W_reg_form .foreign_tel .tel_forenum {
+    float: left;
+    margin: 0 5px 0 0;
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size: 14px;
+    line-height: 28px;
+}
+/**************************//*<input type="text" node-type="newmobilesea" action-data="text=请输入您的手机号码" action-type="text_copy" name="username" class="tel_num" value autocomplete="off">*/
+.W_reg_form .flag_tel .foreign_tel .tel_num {
+    width: 112px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.W_reg_form .foreign_tel .tel_num {
+    width: 147px;
+    height: 28px;
+    height: 20px\9;
+    padding-top: 4px\9;
+    line-height: 19px\9;
+    *line-height: 18px;
+    font-size: 14px;
+    border: 0;
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    background: none;
+    background-image: none;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    color: #808080;
+}
+input[type="text"], input[type="password"], textarea {
+    outline-style: none;
+    -webkit-appearance: none;
+}
+a:focus, input, textarea {
+    outline-style: none;
+}
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+body, button, input, select, textarea {
+    font: 12px/1.125 Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 12px;
+    line-height: 1.125;
+    font-family: Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+input:not([type]), input[type="email" i], input[type="number" i], input[type="password" i], input[type="tel" i], input[type="url" i], input[type="text" i] {
+    padding: 1px 0px;
+    padding-top: 1px;
+    padding-right: 0px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+}
+
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    border-width: 2px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-style: inset;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-color: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+    font: 400 13.3333px Arial;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 13.3333px;
+    line-height: normal;
+    font-family: Arial;
+}
+
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+/**************************//*<div style="position:absolute; top:320px; left:100px; z-index:99;display:none;" class="layer_menu_list msg_set_select layer_set_country" node-type="mobilesea_selectlayer">*/
+element.style {
+    position: absolute;
+    top: 320px;
+    left: 100px;
+    z-index: 99;
+    display: none;
+}
+
+.layer_menu_list {
+    background: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-top-color: rgb(204, 204, 204);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(204, 204, 204);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(204, 204, 204);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(204, 204, 204);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    padding: 1px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+}
+/**************************//*<ul class="y_scroll">…</ul>*/
+.layer_menu_list .y_scroll {
+    overflow-y: scroll;
+}
+
+.layer_set_country ul {
+    height: 225px;
+    *width: 110px;
+}
+.layer_menu_list ul {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    clear: both;
+}
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+/**************************//*::after*/
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/**************************/
+.msg_set_select li.select {
+    text-indent: 0;
+}
+
+.layer_menu_list ul li {
+    position: static;
+    float: none;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    display: inline;
+}
+.msg_set_select li {
+    text-indent: 16px;
+    line-height: 100%;
+}
+li {
+    list-style: none;
+    list-style-type: none;
+    list-style-position: initial;
+    list-style-image: initial;
+}
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+/**************************//*<div class="attachment">	*/
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/**************************//*<a node-type="link_regemail" href="/signup/mobile.php?lang=zh-cn&inviteCode=&from=&appsrc=&backurl=&showlogo=">邮箱注册</a>*/
+a {
+    color: #0a8cd2;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+/**************************//*<div class="tips" node-type="mobilesea_tip">*/
+.B_register .W_nologin_main .W_reg_form .tips {
+    *width: 215px;
+}
+.W_reg_form .tips {
+    position: absolute;
+    left: 375px;
+    top: 6px;
+}
+/**************************//*<p class="error">*/
+.W_reg_form .error, .W_reg_form .notice {
+    padding: 0 0 0 20px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    text-indent: -20px;
+    line-height: 18px;
+}
+
+.W_reg_form .error {
+    color: #e64141;
+}
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/**************************//*	<span class="icon_rederrorS"></span>*/
+.W_reg_form .info_list .icon_rederrorS, .W_reg_form .info_list .icon_errorS, .W_reg_form .info_list .icon_warnS, .W_reg_form .info_list .icon_delS {
+    vertical-align: middle;
+}
+
+.icon_rederror, .icon_rederrorS {
+    background-position: 0 -250px;
+    background-position-x: 0px;
+    background-position-y: -250px;
+}
+.icon_error, .icon_del, .icon_succ, .icon_warn, .icon_ask, .icon_rederror, .icon_errorS, .icon_delS, .icon_succS, .icon_warnS, .icon_askS, .icon_rederrorS, .icon_errorM, .icon_delM, .icon_succM, .icon_warnM, .icon_questionM, .icon_rederrorM, .icon_errorB, .icon_delB, .icon_succB, .icon_warnB, .icon_questionB, .icon_rederrorB, .icon_promptS, .icon_noticeS {
+    width: 16px;
+    height: 16px;
+    background: url(../img/ico_warn.png);
+    background-image: url(../img/ico_warn.png);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    _background: url(img/ico_warn.png);
+    margin: 0 3px 0 0;
+    margin-top: 0px;
+    margin-right: 3px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: inline-block;
+}
+/**************************//*<div class="info_list clearfix">*/
+.W_reg_form .info_list {
+    margin: 0 0 15px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    position: relative;
+}
+.clearfix {
+    display: block;
+}
+.clearfix {
+    display: inline-block;
+}
+div {
+    display: block;
+}
+/**************************//*<div class="tit">…</div>设置密码*/
+.B_register .W_nologin_main .W_reg_form .tit {
+    width: 160px;
+}
+
+.W_nologin_main .W_reg_form .tit, .W_nologin_main .W_reg_form .inp .W_input {
+    font-size: 14px;
+}
+.W_reg_form .tit {
+    float: left;
+    line-height: 30px;
+    text-align: right;
+}
+/**************************//*<div class="inp">…</div>*/
+.B_register .W_nologin_main .W_reg_form .inp {
+    margin-left: 160px;
+}
+/**************************//*<div node-type="password_tip" class="tips">*/
+.B_register .W_nologin_main .W_reg_form .tips {
+    *width: 215px;
+}
+
+.W_reg_form .tips {
+    position: absolute;
+    left: 375px;
+    top: 6px;
+}
+/**************************//*注册按钮<div class="info_submit clearfix">*/
+.B_reg_tel .W_reg_form .info_submit {
+    margin: 30px 0 12px;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-bottom: 12px;
+    margin-left: 0px;
+}
+
+.W_reg_form .info_submit {
+    margin: 19px 0 10px;
+    margin-top: 19px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+.clearfix {
+    display: block;
+}
+.clearfix {
+    display: inline-block;
+}
+
+div {
+    display: block;
+}
+/**************************//*<div class="inp">…</div>*/
+.B_register .W_nologin_main .W_reg_form .inp {
+    margin-left: 160px;
+}
+/**************************//*<a action-type="btn_check_pincode" class="W_btn_big" suda-uatrack="key=tblog_register_page&value=register_now_button" href="javascript:void(0);" refake-type="submit" node-type="btn_check_pincode">…</a>*/
+.W_btn_big, .btn_reg_a {
+    border: 1px solid #ff9b01;
+    border-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.W_btn_big, .W_btn_big span, .btn_reg_a, .btn_reg_a span {
+    display: inline-block;
+    cursor: pointer;
+}
+a {
+    color: #0a8cd2;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+a {
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+/**************************//*<span>立即注册</span>*/
+.W_btn_big span {
+    width: 196px;
+    padding: 10px 0 8px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 8px;
+    padding-left: 0px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 16px;
+}
+
+.W_btn_big span, .btn_reg_a span {
+    border: 1px solid #ffb33b;
+    border-top-color: rgb(255, 179, 59);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(255, 179, 59);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(255, 179, 59);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(255, 179, 59);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    color: #FFF;
+    background: #FFA00A;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 160, 10);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    font-style: normal;
+}
+.W_btn_big, .W_btn_big span, .btn_reg_a, .btn_reg_a span {
+    display: inline-block;
+    cursor: pointer;
+}
+/**************************//*<a style="display:none;" action-type="btn_submit" class="W_btn_big" suda-uatrack="key=tblog_register_page&value=register_now_button" href="javascript:void(0);" refake-type="submit" node-type="btn_submit">*/
+.W_btn_big, .btn_reg_a {
+    border: 1px solid #ff9b01;
+    border-top-color: rgb(255, 155, 1);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(255, 155, 1);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(255, 155, 1);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(255, 155, 1);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.W_btn_big, .W_btn_big span, .btn_reg_a, .btn_reg_a span {
+    display: inline-block;
+    cursor: pointer;
+}
+a {
+    color: #0a8cd2;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+a {
+    text-decoration: none;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+/**************************//*<span>立即注册</span>*/
+.W_btn_big span {
+    width: 196px;
+    padding: 10px 0 8px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 8px;
+    padding-left: 0px;
+    height: 38px;/*调整黄色区域高度*/
+    line-height: 18px;
+    font-size: 16px;
+}
+
+.W_btn_big span, .btn_reg_a span {
+    border: 1px solid #ffb33b;
+    border-top-color: rgb(255, 179, 59);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(255, 179, 59);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(255, 179, 59);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(255, 179, 59);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    color: #FFF;
+    background: #FFA00A;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 160, 10);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    font-style: normal;
+}
+.W_btn_big, .W_btn_big span, .btn_reg_a, .btn_reg_a span {
+    display: inline-block;
+    cursor: pointer;
+}
+/**************************//*<div class="info_list clearfix">…</div>*/
+.W_reg_form .info_list {
+    margin: 0 0 15px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    position: relative;
+}
+.clearfix {
+    display: block;
+}
+.clearfix {
+    display: inline-block;
+}
+/**************************//*<div class="inp verify">…</div>*/
+.B_register .W_nologin_main .W_reg_form .inp {
+    margin-left: 160px;
+}
+
+div {
+    display: block;
+}
+
+/**************************//*<p class="agreement">…</p>*/
+.W_reg_form .verify * {
+    vertical-align: middle;
+}
+
+.agreement {
+    margin: 0 0 7px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 7px;
+    margin-left: 0px;
+}
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/**************************//*<a href="/signup/v5/protocol" target="_blank">微博服务使用协议</a>*/
+.W_reg_form .verify * {
+    vertical-align: middle;
+}
+
+a {
+    color: #0a8cd2;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+/**************************//*<div class="W_reg_sidebar">…</div>*/
+.W_reg_sidebar {
+    float: right;
+    width: 210px;
+    margin: 30px 30px 0 0;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size: 14px;
+    line-height: 22px;
+    _display: inline;
+}
+/**************************//*<p class="p1 line">…</p>*/
+.W_reg_sidebar .p1 {
+    margin: 0 0 14px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 14px;
+    margin-left: 0px;
+    padding: 0 0 6px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 6px;
+    padding-left: 0px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.W_reg_sidebar .line {
+    border-bottom: 1px dotted #ccc;
+}
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/**************************//*<a href="//weibo.com/login.php">直接登录»</a>*/
+a {
+    color: #0a8cd2;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+/**************************//*<p>微博注册帮助</p>*/
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/**************************//*<div class="reg_help">…</div>*/
+.W_reg_sidebar .reg_help {
+    font-size: 12px;
+    margin-top: 10px;
+}
+div {
+    display: block;
+}
+/**************************//*<ul class="help_list">…</ul>*/
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, blockquote, pre, form, fieldset, legend, input, button, textarea, hr {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+/**************************//*<a target="_blank" href="http://help.weibo.com/faq/q/201" class="help_more">更多帮助»</a>*/
+.W_reg_sidebar .reg_help .help_more {
+    display: inline-block;
+    margin: 16px 0 0 25px;
+    margin-top: 16px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+}
+
+a {
+    color: #0a8cd2;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+/**************************//**/
+
+/**************************//*<!--注册登录footer--><div class="nologin_footer clearfix">…</div>*/
+.nologin_footer {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: 510px;
+}
+.clearfix {
+    display: block;
+}
+.clearfix {
+    display: inline-block;	
+}
+
+div {
+    display: block;
+}
+/**************************//*<div class="left_link">…</div>*/
+.nologin_footer .left_link {
+    float: left;
+}
+/**************************//*<div class="copy">…</div>*/
+.nologin_footer .copy {
+    float: right;
+    text-align: right;
+    color: #6e9ab8;
+}
+/**************************//*<i class="footer_logo"></i>*/
+.footer_logo {
+    display: inline-block;
+    width: 26px;
+    height: 21px;
+    background: url(../img/reg_ico.png) no-repeat 0 4px;
+    background-image: url(../img/reg_ico.png));
+    background-position-x: 0px;
+    background-position-y: 4px;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    _background-image: url(img//reg_ico.png);
+    vertical-align: -4px;
+}
+
+address, caption, cite, code, dfn, em, i, th, var, b {
+    font-style: normal;
+    font-weight: normal;
+}
+/**************************//*<em class="company_name">北京微梦创科网络技术有限公司</em>*/
+.nologin_footer .left_link .company_name {
+    margin-right: 10px;
+    color: #6e9ab8;
+}
+
+address, caption, cite, code, dfn, em, i, th, var, b {
+    font-style: normal;
+    font-weight: normal;
+}
+/**************************//*<a href="//weibo.com/aj/static/jww.html">京网文[2017]10291-1172号</a>
+							<a href="http://www.miibeian.gov.cn">京ICP备12002058号</a>*/
+.nologin_footer .left_link a {
+    color: #6e9ab8;
+}
+
+a {
+    color: #0a8cd2;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+a {
+    text-decoration: none;
+}
+/**************************//*<span>Copyright © 2009-2018 WEIBO</span>*/
+.nologin_footer .copy {
+    float: right;
+    text-align: right;
+    color: #6e9ab8;
+}
+/**************************//*<select id="pl_content_changeLanguage" action-data="login=0">…</select>*/
+.nologin_footer .copy select {
+    margin-left: 10px;
+}
+body, button, input, select, textarea {
+    font: 12px/1.125 Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 12px;
+    line-height: 1.125;
+    font-family: Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+    overflow-x: visible !important;
+    overflow-y: visible !important;
+}
+
+select {
+    border-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-color: rgb(169, 169, 169);
+    border-top-color: rgb(169, 169, 169);
+    border-right-color: rgb(169, 169, 169);
+    border-bottom-color: rgb(169, 169, 169);
+    border-left-color: rgb(169, 169, 169);
+}
+
+select {
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+    background-color: white;
+    cursor: default;
+    border-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-style: solid;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+select {
+    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+    font: 400 13.3333px Arial;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 13.3333px;
+    line-height: normal;
+    font-family: Arial;
+}
+
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+/**************************//*<option selected="selected" value="zh-cn">中文(简体)</option>*/
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    padding-top: 0px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+}
+body, button, input, select, textarea {
+    font: 12px/1.125 Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 12px;
+    line-height: 1.125;
+    font-family: Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+select {
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+    background-color: white;
+    cursor: default;
+    border-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-style: solid;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+    font: 400 13.3333px Arial;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 13.3333px;
+    line-height: normal;
+    font-family: Arial;
+}
+
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
+/**************************//**/
+
