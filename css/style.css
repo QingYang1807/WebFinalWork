@@ -1,0 +1,92 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-size: 100%;
+	font-weight: normal;
+	padding: 0px;
+	margin: 0px;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+img {
+	border: 0px;
+	border: none;
+	vertical-align: middle;
+	_vertical-align: top;
+}
+
+
+#header {
+	background: #F2F2F2;
+	height: 90px
+}
+
+#content .inner,
+#header .inner,
+#navigation .inner,
+#footer .inner {
+	width: 960px;
+	padding: 0 20px;
+	margin: 0 auto
+}
+
+#content {
+	border-top: 2px solid #DDD;
+	background: red;
+}
+
+#content .inner,
+#header .inner,
+#navigation .inner,
+#footer .inner {
+	width: 960px;
+	padding: 0 20px;
+	margin: 0 auto
+}
+
+/****小人初始化移动****/
+.spig {
+	display: block;
+	width: 150px;
+	height: 200px;
+	position: absolute;
+	top: -200px;
+	left: 180px;
+	z-index: 9999;
+}
+
+#message {
+	color: #191919;
+	border: 1px solid #c4c4c4;
+	background: #ddd;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	min-height: 1em;
+	padding: 5px;
+	top: -30px;
+	position: absolute;
+	text-align: center;
+	width: auto !important;
+	z-index: 10000;
+	-moz-box-shadow: 0 0 15px #eeeeee;
+	-webkit-box-shadow: 0 0 15px #eeeeee;
+	border-color: #eeeeee;
+	box-shadow: 0 0 15px #eeeeee;
+	outline: none;
+}
+
+.mumu {
+	width: 150px;
+	height: 190px;
+	cursor: move;
+	background-image: url(../img/spig.png);
+}

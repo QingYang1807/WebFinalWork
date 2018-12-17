@@ -1,0 +1,567 @@
+#loginUserInput{
+	/* animation: flyRight 2s; //infinite 循环 */
+}
+
+@keyframes flyRight{
+	0%{
+		transform: translateX(200px);
+	}
+	100%{
+		transform: translateX(10px);
+	}
+}
+	
+@keyframes flyOut{
+	0%{
+		transform: translateX(-50px);
+		right:160px;
+	}
+	100%{
+		transform: translateX(1920px) ;
+		right:-1920px
+	}
+}
+
+.float_notice_userName {
+	width: 230px;
+	height: 25px;
+	border: 1px solid black;
+	background-color: #FFFAE8;
+	margin: 2px;
+	padding-left: 6px;
+	position: fixed;
+	right: -1920px;
+	top: 151px;
+}
+
+.float_notice_userPassword {
+	width: 230px;
+	height: 25px;
+	border: 1px solid black;
+	background-color: #FFFAE8;
+	margin: 2px;
+	padding-left: 6px;
+	position: fixed;
+	right: -1920px;
+	top: 200px;
+}
+
+.ok {
+	color: green;
+	/* border: 1px solid green; */
+}
+
+.error {
+	color: red;
+	/* border: 1px solid red; */
+}
+
+.img {
+	border: 0;
+}
+
+.container {
+	width: 100%;
+}
+
+.header_redline {
+	/*顶部红线*/
+	position: relative;
+	height: 2px;
+	border-bottom: 1px solid #e6f19;
+	background: url(../img/top_line_bg.png) repeat-x center 0;
+	top: -1.5px;
+	overflow: hidden;
+}
+
+.r_nav_fix {
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+}
+
+.navbar {
+	height: 23px;
+	box-shadow: 0px 0.5px 5px #888888;
+	background-color: white;
+}
+
+.logo_box {
+	width: 190px;
+	height: 48px;
+	cursor: pointer;
+	position: relative;
+	left: 250px;
+	top: -2px;
+}
+
+.logo_box .logo {
+	/*对logo图片本身设置*/
+	display: block;
+	margin-left: 0px;
+	cursor: pointer;
+	height: 27px;
+	margin-top: -6px;
+	margin-left: 61px;
+}
+
+.search_input {
+	/*搜索输入框背景*/
+	position: relative;
+	height: 30px;
+	margin-top: 9px;
+	width: 470px;
+	margin-left: 440px;
+	border: 1px solid #ccc;
+	background-color: #F2F2F5;
+	top: -1px;
+	left: -484px;
+}
+
+.search_input .input_XXX {
+	/*搜索输入框*/
+	background-color: #F2F2F5;
+	/* color:transparent; */
+	border: none;
+	height: 28px;
+	width: 468px;
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 25px;
+}
+
+.search_input input:focus {
+	/*点击：搜索输入框 背景色变白色*/
+	background-color: #FFFFFF;
+}
+
+.search_input a {
+	/*搜索icon图标*/
+	position: relative;
+	left: 437px;
+	top: -24px;
+}
+
+.search_input a:focus {
+	/*搜索icon图标 鼠标放置高亮橙色*/
+	background-color: red;
+}
+
+.nav_title {
+	position: relative;
+}
+
+.nav_title li {
+	list-style: none;
+	position: relative;
+	top: 5px;
+	/*导航文字  上下调整*/
+	dispaly: block;
+	float: left;
+	right: 325px;
+	/*导航文字  左右调整*/
+	/* 	border: dashed;
+ */
+}
+
+.nav_title a {
+	position: relative;
+	display: inline-block;
+	height: 26px;
+	line-height: 26px;
+	white-space: nowrap;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+.nav_title a:hover {
+	color: #eb7350;
+}
+
+.nav_title {
+	position: relative;
+	left: 160px;
+	/*首页、视频、发现、游戏左右位置移动*/
+	top: 5px;
+}
+
+.nav_title a {
+	color: #333333;
+}
+
+.nav_title a:hover {
+	color: #eb7350;
+}
+
+
+
+/*正文部分*/
+.r_mainContent {
+	margin-top: 70px;
+	z-index: 0;
+}
+
+/*第一列*/
+.container .row .column {
+	position: fixed;
+	left: 300px;
+	top: 60px;
+	left: 320px;
+	width: 150px;
+	dashed;
+}
+
+.container .row .column .col_ul .col_div {
+	text-align: center;
+}
+
+.container .column .col_ul .col_div .col_a {
+	/*第一列导航按钮*/
+	background: #FE5234;
+	display: block;
+	font-size: 18px;
+	color: #ffffff;
+	height: 40px;
+	line-height: 42px;
+	border-radius: 3px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding-top: 0px;
+	padding-right: 26px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	text-decoration: none;
+}
+
+.container .column .col_ul .col_div .col_a_noHaveColor {
+	/*第一列导航按钮*/
+	background: #FFFFFF;
+	display: block;
+	font-size: 18px;
+	color: #000000;
+	height: 40px;
+	line-height: 42px;
+	border-radius: 3px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding-top: 0px;
+	padding-right: 26px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	text-decoration: none;
+}
+
+.container .column .col_ul .col_div {
+	margin-bottom: 3px;
+}
+
+.container .column .col_ul .col_div .col_a_noHaveColor {
+	/*导航列    鼠标放置显示块状背景色高亮*/
+	color: #000000;
+	/*导航列初始字体颜色：黑色*/
+	text-decoration: none;
+}
+
+.container .column .col_ul .col_div .col_a_noHaveColor:hover {
+	/*导航列    鼠标放置显示块状背景色高亮*/
+	background: #FE5234;
+	color: #FFFFFF;
+}
+
+
+/*登录面板控制*/
+
+.container .row .login_block .panel .login_nav a {
+	/*正文第三个登录模块  ： 账号登录/安全登录鼠标放置显示下划线*/
+	color: #000000;
+	text-decoration: none;
+}
+
+.container .row .login_block .panel .login_nav a:hover {
+	/*正文第三个登录模块  ： 账号登录/安全登录鼠标放置显示下划线*/
+	border-bottom: 2px solid #FA7D3C;
+}
+
+/*正文文字大小*/
+#bodyText{
+	font-size: 14px;
+}
+
+a:hover {
+	color: #eb7350;
+	text-decoration: none;
+}
+
+/*登录面板栏目*/
+
+.QRcode {
+	style="position: relative;
+width: 172px;
+	height: 174px;
+	margin: auto;
+	border-top-color: rgb(243, 243, 243);
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-right-color: rgb(243, 243, 243);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-bottom-color: rgb(243, 243, 243);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: rgb(243, 243, 243);
+	border-left-style: solid;
+	border-left-width: 1px;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	padding-top: 14px;
+}
+
+
+.text_content {
+	font-size: 12px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.text_content ul {
+	padding-left: 0px;
+}
+
+.text_content .list_v1 {
+	cursor: pointer;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	display: block;
+	/* border: double; */
+	/* border-color:lawngreen; */
+	width: 670px;
+}
+
+.text_content .list_v1 .main_pic {
+	margin-right: 13px;
+	height: 150px;
+	width: 665px;
+	overflow: hidden;
+	/* border-bottom: 1px solid #e5e5e5; */
+	/* margin-bottom: 10px; */
+}
+
+.text_content .list_v1 .main_pic .main_text {
+	position: relative;
+	width: 465px;
+	height: 150px;
+	left: 200px;
+	top: -200px;
+	overflow:hidden;
+}
+
+.text_content .list_v1 .main_pic .main_text .main_title {
+	max-height: 150px;
+	margin-top: 5px;
+	text-align: left;
+}
+
+.text_content .list_v1 .main_pic .main_text .subinfo_box {
+	position: relative;
+	height: 25px;
+	width: 465px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.text_content .list_v1 .main_pic .main_text .subinfo_box .subinfo_face {
+	float: left;
+	height: 20px;
+	margin-right: 5px;
+}
+
+.text_content .list_v1 .main_pic .main_text .subinfo_box .right_text {
+	float: left;
+	margin-right: 12px;
+	color: #808080;
+	text-decoration: none;
+}
+
+
+/*底部版权*/
+.container .row .foot-link a {
+	color: #808080;
+	text-align: left;
+	margin-right: 10px;
+	margin-bottom: 50px;
+}
+
+.container .row .foot-link span {
+	font-size: 16px;
+}
+
+.container .row .foot-link div {
+	text-align: left;
+	margin-right: 30px;
+}
+
+.container .row .foot-link a {
+	color: #808080;
+	text-decoration: none;
+}
+
+.container .row .foot-link a:hover {
+	color: #eb7350;
+}
+
+.container .row .vision_footer {
+	background-color: #f2f2f5;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 45px;
+	padding-left: 0px;
+}
+
+.container .row .vision_footer p {
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+}
+
+.container .row .vision_footer .copy {
+	line-height: 1em;
+	margin-bottom: 10px;
+}
+
+.container .row .vision_footer .copy .icon {
+	display: inline-block;
+	background: url(../img/icon.png) -50px -300px;
+	background-repeat: no-repeat;
+}
+
+.container .row .vision_footer .copy .icon_weibo {
+	background-position-x: -50px;
+	background-position-y: -300px;
+	width: 16px;
+	height: 16px;
+	vertical-align: text-top;
+	margin-right: 3px;
+}
+
+.container .row .vision_footer .s_txt2 {
+	color: #808080;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+.container .row .vision_footer a:hover {
+	color: #eb7350;
+	text-decoration: none;
+}
+
+.container .row .vision_footer .copy_v2 {
+	margin-bottom: 10px;
+}
+
+.container .row .vision_footer .company p {
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+}
+
+.container .row .vision_footer .company .copy {
+	margin-right: 20px;
+}
+
+.container .row .vision_footer .company .icon_netsecurity {
+	display: inline-block;
+	background-image: url(../img/icon.png);
+	background-repeat: no-repeat;
+	background-position: -100px -300px;
+	background-position-x: -100px;
+	background-position-y: -300px;
+	width: 20px;
+	height: 20px;
+	vertical-align: text-top;
+	margin-right: 3px;
+	margin-top: -3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 下面是woff字体的应用
+@font-face  {
+  font-family: 'wbficon';
+  src: url('woff/wbficon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nav_title span.woff_home{
+	font-family: 'wbficon';
+	border: dashed;
+} */
+
+
+/* .W_ficon {
+	font-family: "wbficonregular" !important;
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+} */
+
+
+/* 
+.W_ficon {
+	font-family: "wbficonregular" !important;
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+}
+
+.ficon_arrow_left,
+.ficon_arrow_right {
+	vertical-align: middle;
+}
+
+@font-face {
+	font-family: 'wbficonregular';
+	src: url("font/wbficon.eot?id=201811011533");
+	src: url("font/wbficon.eot?id=201811011533#iefix") format('embedded-opentype'),
+	 url("font/wbficon.svg?id=201811011533") format('svg'),
+		url("font/wbficon.woff?id=201811011533") format('woff'),
+		 url("font/wbficon.ttf?id=201811011533") format('truetype');
+	src: url("font/wbficon.eot?id=201811011533") \9;
+	font-weight: normal;
+	font-style: normal;
+}
+
+#js_style_css_module_base_ficon {
+	height: 42px;
+}
+ */
+/* 
+@font-face {
+	font-family: 'fontNameRegular';
+	src: url('font/wbficon.eot');
+	src: local('fontName Regular'), local('fontName'), url('font/wbficon.woff') format('woff'), url('font/wbficon.ttf') format('truetype'), url('font/wbficon.svg#wbficon') format('svg');
+}
+ */
