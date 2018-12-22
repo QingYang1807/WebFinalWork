@@ -17,8 +17,9 @@
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="icon" type="image/x-icon" href="img/favicon.ico" />
 		<link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"><!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-		<link rel="stylesheet" href="css/xlwb.css" />
+		<link rel="stylesheet" href="css/model.css" />
 		<script src="js/XlwbPropertyAll.js"></script>
+		<script type="text/javascript" src="js/jq-slideVerify.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -194,7 +195,125 @@
 					</div>
 				</div>
 
+				<div class="modal fade" id="userRegisterModal" role="dialog" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header"><input type="button" value="&times;" class="close" data-dismiss="modal" aria-hidden="true">
+								<h4 class="modal-title">
+									<!--模态弹窗（Modal）标题（如用户注册）--><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;密码找回</h4>
+							</div>
+							<div class="modal-body">
+								<!--模态弹窗主体（放用户注册表单）-->
+								<div class="row">
+									<div class="userRegisterText">用户名<i class="fa fa-user fa-spin"></i>&nbsp;&nbsp;</div>
+									<div class="userRegisterInput">
+										<input type="text" class="form-control" id="findBackUserName" onblur="check_code()" name="username">
+										<span id="findBackUserP">6~10个字符，可使用字母、数字、下划线，需以字母开头</span>
+									</div>
+								</div>
+								<div class="row">
+									<div class="userRegisterText">密码<i class="fa fa-key fa-spin"></i>&nbsp;&nbsp;</div>
+									<div class="userRegisterInput">
+										<input type="password" class="form-control" id="findBackPassword">
+										<span id="findBackPassP">6~8个字符，区分大小写</span>
+									</div>
+								</div>
+								<div class="row">
+									<div class="userRegisterText">确认密码<i class="fa fa-key fa-spin"></i>&nbsp;&nbsp;</div>
+									<div class="userRegisterInput"><input type="password" class="form-control">
+										<span>请再次填写密码</span>
+									</div>
+								</div>
+								<div class="row">
+									<div class="userRegisterText">Email<i class="fa fa-envelope fa-spin"></i>&nbsp;&nbsp;</div>
+									<div class="userRegisterInput"><input type="password" class="form-control">
+										<span>Email格式：rjxy@163.com</span>
+									</div>
 
+									<div class="row">
+										<div class="verify-wrap" id="verify-wrap2" style="left: 34px;"></div>
+									</div>
+									<div style="text-align: center;">
+										<button type="button" id="resetBtn2" style="display: inline-block;">重置2</button>
+										<button type="button" id="getState2" style="display: inline-block;">获取2验证状态</button>
+									</div>
+									<style type="text/css">
+										/*设置用户注册项左边文字容器的样式*/
+										.userRegisterText {
+											display: inline-block;
+											/*社会容器为内联块对象*/
+											width: 20%;
+											/*设置容器宽度*/
+											text-align: right;
+											/*设置文本对齐方式为右对齐*/
+											padding-right: 5px;
+											/*设置右边距，让文本与输入框有5像素的距离*/
+											font: bold 15px"microsoft yahei";
+											/*设置文本字体*/
+											vertical-align: top;
+											/*设置容器垂直对齐方式为顶端对其*/
+										}
+
+										/*设置用户注册项右边输入框容器的样式*/
+										.userRegisterInput {
+											display: inline-block;
+											/*设置容器为内联块对象*/
+											width: 70%;
+											/*设置容器宽度*/
+										}
+
+										/*设置用户注册项右边输入提示文字容器的样式*/
+										.userRegisterNotice {
+											font: 15px"microsoft yahei";
+											/*设置文本字体*/
+											color: #444444;
+											/*设置文本颜色*/
+											padding: 8px 0px;
+											/*设置容器内边距，上下分别为8像素，左右为0*/
+										}
+									</style>
+
+								</div>
+								<div class="modal-footer"><input type="submit" class="btn btn-success" value="立即找回" /></div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<script type="text/javascript">
+					$(function() {
+						console.log(parseFloat('1px'))
+
+						var SlideVerifyPlug = window.slideVerifyPlug;
+						var slideVerify = new SlideVerifyPlug('#verify-wrap', {
+							wrapWidth: '450', //设置 容器的宽度 ，默认为 350 ，也可不用设，你自己css 定义好也可以，插件里面会取一次这个 容器的宽度
+							initText: '请按住滑块，123', //设置  初始的 显示文字
+							sucessText: '验证通过最右边最右边最右边', //设置 验证通过 显示的文字
+							getSucessState: function(res) {
+								//当验证完成的时候 会 返回 res 值 true，只留了这个应该够用了 
+								console.log(res);
+							}
+						});
+						$("#resetBtn").on('click', function() {
+							slideVerify.resetVerify(); //可以重置 插件 回到初始状态 
+						})
+						$("#getState").on('click', function() {
+							alert(slideVerify.slideFinishState); //这个可以拿到 当前验证状态  是否完成
+						})
+						var slideVerify2 = new SlideVerifyPlug('#verify-wrap2', {
+							wrapWidth: '420',
+							initText: '请按住滑块',
+							sucessText: '验证通过',
+
+						});
+						$("#resetBtn2").on('click', function() {
+							slideVerify2.resetVerify();
+						})
+						$("#getState2").on('click', function() {
+							alert(slideVerify2.slideFinishState);
+						})
+					})
+				</script>
 			</div>
 
 
@@ -288,10 +407,65 @@
 					 href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000019"><i class="icon_netsecurity"></i>京公网安备11000002000019号</a></span></p>
 		</div>
 
+		<script type="text/javascript">
+			$(function() {
+				console.log(parseFloat('1px'))
 
+				var SlideVerifyPlug = window.slideVerifyPlug;
+				var slideVerify = new SlideVerifyPlug('#verify-wrap', {
+					wrapWidth: '450', //设置 容器的宽度 ，默认为 350 ，也可不用设，你自己css 定义好也可以，插件里面会取一次这个 容器的宽度
+					initText: '请按住滑块，123', //设置  初始的 显示文字
+					sucessText: '验证通过最右边最右边最右边', //设置 验证通过 显示的文字
+					getSucessState: function(res) {
+						//当验证完成的时候 会 返回 res 值 true，只留了这个应该够用了 
+						console.log(res);
+					}
+				});
+				$("#resetBtn").on('click', function() {
+					slideVerify.resetVerify(); //可以重置 插件 回到初始状态 
+				})
+				$("#getState").on('click', function() {
+					alert(slideVerify.slideFinishState); //这个可以拿到 当前验证状态  是否完成
+				})
+				var slideVerify2 = new SlideVerifyPlug('#verify-wrap2', {
+					wrapWidth: '420',
+					initText: '请按住滑块',
+					sucessText: '验证通过',
 
+				});
+				$("#resetBtn2").on('click', function() {
+					slideVerify2.resetVerify();
+				})
+				$("#getState2").on('click', function() {
+					alert(slideVerify2.slideFinishState);
+				})
+			})
+		</script>
+
+		<button id="return_Top" style="background: url(img/up.png); border-style: none; position: fixed; right: 10px;bottom: 30px; width:38px; height:32px"></button>
 		</div>
-
 		</div>
 	</body>
+
+	<script type="text/javascript">
+		document.getElementById('return_Top').onclick = function() {
+			// document.body.scrollTop = document.documentElement.scrollTop = 0;//直接到最上面,没有动画
+			// $("html,body").animate({scrollTop:0},500);//有个小动画,回到顶部
+			scrollToptimer = setInterval(function() {
+				console.log("定时循环回到顶部")
+				var top = document.body.scrollTop || document.documentElement.scrollTop;
+				var speed = top / 5;
+				if (document.body.scrollTop != 0) {
+					document.body.scrollTop -= speed;
+				} else {
+					document.documentElement.scrollTop -= speed;
+				}
+				if (top == 0) {
+					clearInterval(scrollToptimer);
+				}
+			}, 30);
+		}
+	</script>
+
+
 </html>
