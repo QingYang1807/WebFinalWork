@@ -84,6 +84,35 @@
 
 				<div class="col-xs-10 col-md-5">
 
+					<ol style="list-style-type: none; border: #0000FF;">
+						<li>
+							<div id="contentList_1">
+
+							</div>
+						</li>
+						<li>
+							<div id="contentList_2">
+
+							</div>
+						</li>
+						<li>
+							<div id="contentList_3">
+
+							</div>
+						</li>
+					</ol>
+
+
+
+
+
+
+
+
+
+
+
+
 
 				</div>
 
@@ -171,7 +200,6 @@
 							</div>
 						</div>
 					</div>
-					<canvas id="canvas" width="500" height="500">cccc</canvas>
 
 					<!--作者：fdgk2016@sina.com时间：2018-10-29描述：微博新鲜事-->
 					<div class="panel panel-default" style="background-color: #F2F2F5;">
@@ -317,44 +345,11 @@
 			</div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 			<!--底部版权模块-->
 			<div class="row">
 				<hr />
 				<div class="foot-link" style="margin-bottom: 20px;">
-					<table align="center">
+					<table align="center" style="position: relative;left: 600px;">
 						<tr>
 							<td>
 								<div><span>微博精彩</span><br /><a href="http://hot.plaza.weibo.com/?bottomnav=1&wvr=6&type=re&act=day">热门微博</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
@@ -407,44 +402,11 @@
 					 href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000019"><i class="icon_netsecurity"></i>京公网安备11000002000019号</a></span></p>
 		</div>
 
-		<script type="text/javascript">
-			$(function() {
-				console.log(parseFloat('1px'))
-
-				var SlideVerifyPlug = window.slideVerifyPlug;
-				var slideVerify = new SlideVerifyPlug('#verify-wrap', {
-					wrapWidth: '450', //设置 容器的宽度 ，默认为 350 ，也可不用设，你自己css 定义好也可以，插件里面会取一次这个 容器的宽度
-					initText: '请按住滑块，123', //设置  初始的 显示文字
-					sucessText: '验证通过最右边最右边最右边', //设置 验证通过 显示的文字
-					getSucessState: function(res) {
-						//当验证完成的时候 会 返回 res 值 true，只留了这个应该够用了 
-						console.log(res);
-					}
-				});
-				$("#resetBtn").on('click', function() {
-					slideVerify.resetVerify(); //可以重置 插件 回到初始状态 
-				})
-				$("#getState").on('click', function() {
-					alert(slideVerify.slideFinishState); //这个可以拿到 当前验证状态  是否完成
-				})
-				var slideVerify2 = new SlideVerifyPlug('#verify-wrap2', {
-					wrapWidth: '420',
-					initText: '请按住滑块',
-					sucessText: '验证通过',
-
-				});
-				$("#resetBtn2").on('click', function() {
-					slideVerify2.resetVerify();
-				})
-				$("#getState2").on('click', function() {
-					alert(slideVerify2.slideFinishState);
-				})
-			})
-		</script>
 
 		<button id="return_Top" style="background: url(img/up.png); border-style: none; position: fixed; right: 10px;bottom: 30px; width:38px; height:32px"></button>
 		</div>
 		</div>
+
 	</body>
 
 	<script type="text/javascript">
